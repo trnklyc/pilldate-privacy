@@ -41,7 +41,7 @@ Veriler siz silene ya da uygulamayı kaldırana kadar telefonunuzda durur. Uygul
 - **Kamera:** karekodu ve SKT'yi okumak için.
 - **Bildirimler:** hatırlatmaları göstermek için.
 - **Yeniden başlatma sonrası çalışma:** telefon yeniden açılınca hatırlatmaları tekrar kurmak için.
-- **İnternet:** PillDate kendi verisi için internet kullanmaz; izin, kullanılan kütüphaneler (ör. ML Kit teşhis iletimi) için gereklidir.
+- **İnternet:** PillDate ilaç verilerinizi internete göndermez. İnternet yalnızca (a) siz Ayarlar'da “TİTCK'dan indir”e basarsanız, Türkiye İlaç ve Tıbbi Cihaz Kurumu'nun herkese açık ruhsatlı ürünler listesini titck.gov.tr'den indirmek için ve (b) kullanılan kütüphaneler (ör. ML Kit teşhis iletimi) için kullanılır. Liste indirilirken titck.gov.tr sunucusu, her web isteğinde olduğu gibi IP adresinizi görür; uygulama bu isteğe hiçbir kişisel veri eklemez. İndirme yalnızca sizin başlatmanızla yapılır, kendiliğinden tekrarlanmaz.
 
 ## 6. Çocuklar
 
@@ -93,7 +93,7 @@ Data stays on your phone until you delete it or uninstall the app. Uninstalling 
 - **Camera:** to read barcodes and expiry dates.
 - **Notifications:** to show reminders.
 - **Run after reboot:** to reschedule reminders when the phone restarts.
-- **Internet:** PillDate does not use the internet for its own data; the permission is needed by libraries (e.g. ML Kit diagnostics).
+- **Internet:** PillDate does not send your medication data over the internet. The internet is used only (a) when you tap “TİTCK'dan indir” in Settings, to download the Turkish Medicines and Medical Devices Agency's publicly available licensed-product list from titck.gov.tr, and (b) by libraries (e.g. ML Kit diagnostics). While the list downloads, the titck.gov.tr server sees your IP address like any web request; the app adds no personal data to that request. The download happens only when you start it and never repeats on its own.
 
 ## 6. Children
 
